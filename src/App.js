@@ -9,7 +9,7 @@ function App() {
   const [btnLoader, setBtnLoader] = useState(false)
 
   const openai = new OpenAIApi(new Configuration({
-    apiKey: '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'
+    apiKey: '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'
   }))
 
   const sendReq =  (e) => {
@@ -57,7 +57,7 @@ function App() {
          onChange={(e) => setValue(e.target.value)}
          required
         />
-        {btnLoader ? <button type='button' disabled>Javobni kuting...</button> : <button type='submit'>send</button>}
+        {btnLoader ? <button type='button' disabled>Javobni kuting ...</button> : <button type='submit'>send</button>}
         
       </form>
     </div>
