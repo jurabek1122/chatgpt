@@ -57,7 +57,7 @@ function App() {
          onChange={(e) => setValue(e.target.value)}
          required
         />
-        {btnLoader ? <button type='button' disabled>Javobni kuting ...</button> : <button type='submit'>send</button>}
+        {btnLoader ? <button type='button' disabled>Javobni kuting...</button> : <button type='submit'>send</button>}
         
       </form>
     </div>
